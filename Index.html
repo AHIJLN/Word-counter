@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>字数统计应用</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
+    textarea {
+      width: 80%;
+      height: 150px;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .stats {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>字数统计工具</h1>
+  <textarea id="textInput" placeholder="请输入文本..."></textarea>
+  <div class="stats">
+    <p>中文字符数：<span id="chineseCount">0</span></p>
+    <p>英文字符数：<span id="englishCount">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
